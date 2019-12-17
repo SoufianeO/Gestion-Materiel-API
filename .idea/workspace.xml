@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87661c6e-8bdc-4acc-a3b6-7ae1d10b84f1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PzudroN79cYxGbPvdoMWVbILwd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/ocp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\soufi\IdeaProjects\ocp\src\main\java\com\ocp" />
+      <recent name="C:\Users\soufi\IdeaProjects\ocp\src\main\java\com\ocp\Model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ocp.Controller" />
+      <recent name="com.ocp" />
+      <recent name="com.ocp.Model" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ocp" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="token" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="OcpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ocpBACK" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ocp.OcpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87661c6e-8bdc-4acc-a3b6-7ae1d10b84f1" name="Default Changelist" comment="" />
+      <created>1566889336896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566889336896</updated>
+      <workItem from="1566889341364" duration="12647000" />
+      <workItem from="1566912406011" duration="2566000" />
+      <workItem from="1566916310669" duration="4510000" />
+      <workItem from="1566936224204" duration="628000" />
+      <workItem from="1567009720247" duration="439000" />
+      <workItem from="1567151244915" duration="2077000" />
+      <workItem from="1568475570175" duration="243000" />
+      <workItem from="1568475923474" duration="1225000" />
+      <workItem from="1568483758643" duration="54000" />
+      <workItem from="1568804588922" duration="620000" />
+      <workItem from="1568831479543" duration="11419000" />
+      <workItem from="1568905633347" duration="8368000" />
+      <workItem from="1568917504426" duration="629000" />
+      <workItem from="1568974102080" duration="274000" />
+      <workItem from="1568978556230" duration="867000" />
+      <workItem from="1569010273001" duration="262000" />
+      <workItem from="1569010567622" duration="1817000" />
+      <workItem from="1569065387875" duration="5570000" />
+      <workItem from="1569153619402" duration="5605000" />
+      <workItem from="1569163008301" duration="1957000" />
+      <workItem from="1569169396917" duration="2622000" />
+      <workItem from="1569238619590" duration="400000" />
+      <workItem from="1569244198661" duration="185000" />
+      <workItem from="1569244872357" duration="693000" />
+      <workItem from="1569301012244" duration="282000" />
+      <workItem from="1569331190715" duration="126000" />
+      <workItem from="1569331467361" duration="4225000" />
+      <workItem from="1569343670386" duration="2805000" />
+      <workItem from="1569500172418" duration="2782000" />
+      <workItem from="1569761392341" duration="7490000" />
+      <workItem from="1570733551886" duration="115000" />
+      <workItem from="1570968733358" duration="619000" />
+      <workItem from="1571064761256" duration="162000" />
+      <workItem from="1571065075568" duration="177000" />
+      <workItem from="1571073645262" duration="1669000" />
+      <workItem from="1571080676392" duration="1437000" />
+      <workItem from="1571144759439" duration="1765000" />
+      <workItem from="1571146975636" duration="376000" />
+      <workItem from="1571567280853" duration="4290000" />
+      <workItem from="1571574103738" duration="675000" />
+      <workItem from="1571745895915" duration="6163000" />
+      <workItem from="1571781015724" duration="3189000" />
+      <workItem from="1571839953636" duration="2364000" />
+      <workItem from="1571903100830" duration="12321000" />
+      <workItem from="1571951634853" duration="4397000" />
+      <workItem from="1572001063196" duration="1265000" />
+      <workItem from="1572027136852" duration="3887000" />
+      <workItem from="1572104845172" duration="2333000" />
+      <workItem from="1572369756944" duration="68000" />
+      <workItem from="1572369915643" duration="947000" />
+      <workItem from="1572463293001" duration="6453000" />
+      <workItem from="1574017077134" duration="1983000" />
+      <workItem from="1574070345435" duration="949000" />
+      <workItem from="1574071508506" duration="2142000" />
+      <workItem from="1574125933585" duration="1412000" />
+      <workItem from="1574180056770" duration="2848000" />
+      <workItem from="1574208790182" duration="710000" />
+      <workItem from="1574514887415" duration="438000" />
+      <workItem from="1574744412288" duration="205000" />
+      <workItem from="1574744722354" duration="1313000" />
+      <workItem from="1574841965591" duration="115000" />
+      <workItem from="1574842265204" duration="6783000" />
+      <workItem from="1575133288418" duration="2778000" />
+      <workItem from="1575300507815" duration="41000" />
+      <workItem from="1575301008616" duration="668000" />
+      <workItem from="1575306958508" duration="1264000" />
+      <workItem from="1575308718090" duration="1576000" />
+      <workItem from="1576184209911" duration="263000" />
+      <workItem from="1576195287854" duration="169000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ocpBACK$OcpApplication.ic" NAME="OcpApplication Coverage Results" MODIFIED="1571903350728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
