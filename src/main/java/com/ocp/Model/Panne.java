@@ -1,13 +1,12 @@
 package com.ocp.Model;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import java.io.Serializable;
 
-@Entity
-public class Panne implements Serializable {
+    @Entity
+    public class Panne implements Serializable {
 
     /**
      *
@@ -21,10 +20,10 @@ public class Panne implements Serializable {
     private String etat;
 
     @ManyToOne
-    @JoinColumn(name = "materiel")
-    private Materiel Materiel;
+    @JoinColumn(name = "id_materiel")
+    private Materiel materiel;
     @ManyToOne
-    @JoinColumn(name = "fonctionnaire")
+    @JoinColumn(name = "id_fonctionnaire")
     private Fonctionnaire fonctionnaire;
 
     public Panne(){}

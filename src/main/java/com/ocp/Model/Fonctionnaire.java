@@ -1,30 +1,37 @@
 package com.ocp.Model;
-
-import javax.persistence.Entity;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
-import javax.persistence.PrimaryKeyJoinColumn;
+import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
+import java.util.List;
 
 @Entity
-@PrimaryKeyJoinColumn(name="matricule")
-@Inheritance(strategy = InheritanceType.JOINED)
-public class Fonctionnaire extends AbstractUser implements Serializable {
-
+    @Inheritance(strategy = InheritanceType.JOINED)
+    public class Fonctionnaire extends AbstractUser implements Serializable {
     /**
      *
      */
     private static final long serialVersionUID = 1L;
+    @Id
+    private String id;
     @NotBlank(message = "Login")
     private String login;
     @NotBlank(message = "Mot de passe")
     private String motPasse;
     @NotBlank(message = "Role")
     private String role;
+    @OneToMany(mappedBy="fonctionnaire")
+    private List<Panne> pannes;
 
     public Fonctionnaire() {
         super();
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getLogin() {
@@ -49,5 +56,13 @@ public class Fonctionnaire extends AbstractUser implements Serializable {
 
     public void setRole(String role) {
         this.role = role;
+    }
+
+    public List<Panne> getPannes() {
+        return pannes;
+    }
+
+    public void setPannes(List<Panne> pannes) {
+        this.pannes = pannes;
     }
 }

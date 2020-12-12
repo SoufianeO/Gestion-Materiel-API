@@ -1,15 +1,12 @@
 package com.ocp.Model;
-
-import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.MappedSuperclass;
 
-@MappedSuperclass
-@Inheritance(strategy = InheritanceType.JOINED)
-public abstract class AbstractUser extends Personne {
+    @MappedSuperclass
+    @Inheritance(strategy = InheritanceType.JOINED)
+    public abstract class AbstractUser extends Personne {
 
-    @Id
     private String matricule;
     private String service;
     private String site;

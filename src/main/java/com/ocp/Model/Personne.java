@@ -1,10 +1,8 @@
 package com.ocp.Model;
-
-
 import javax.persistence.MappedSuperclass;
 
-@MappedSuperclass
-public abstract class Personne {
+    @MappedSuperclass
+    public abstract class Personne {
 
     private String nom;
     private String prenom;

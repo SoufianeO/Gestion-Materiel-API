@@ -1,20 +1,15 @@
 package com.ocp.Model;
-
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 
-@Entity
-public class Materiel implements Serializable {
+    @Entity
+    public class Materiel implements Serializable {
 /**
 	 *
 	 */
 	private static final long serialVersionUID = 1L;
-@Id
+    @Id
     private String matricule;
     private String type;
     private String marque;
@@ -25,8 +20,14 @@ public class Materiel implements Serializable {
 
     @OneToOne(mappedBy = "materiel")
     private Contrat contrat;
-    @ManyToMany(mappedBy ="materiel" )
-    private List<User> users = new ArrayList<>();
+    @OneToMany(mappedBy="materiel")
+    private List<Panne> pannes;
+        @ManyToMany
+        @JoinTable(name = "UtilisateurMateriel",
+                joinColumns = {@JoinColumn(name="idMateriel")},
+                inverseJoinColumns = {@JoinColumn(name="idUtilisateur")}
+        )
+        private List<Materiel> materiels;
 
     public Materiel(){}
 
@@ -85,4 +86,20 @@ public class Materiel implements Serializable {
     public void setEtat(String etat) {
         this.etat = etat;
     }
-}
+
+        public List<Panne> getPannes() {
+            return pannes;
+        }
+
+        public void setPannes(List<Panne> pannes) {
+            this.pannes = pannes;
+        }
+
+        public Contrat getContrat() {
+            return contrat;
+        }
+
+        public void setContrat(Contrat contrat) {
+            this.contrat = contrat;
+        }
+    }

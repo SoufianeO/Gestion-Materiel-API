@@ -1,28 +1,34 @@
 package com.ocp.Model;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
-import javax.persistence.PrimaryKeyJoinColumn;
 import java.io.Serializable;
+import java.util.List;
 
 @Entity
-@PrimaryKeyJoinColumn(name="matricule")
-public class Fournisseur extends Personne implements Serializable {
-
+    public class Fournisseur extends Personne implements Serializable {
     /**
 	 *
 	 */
 	private static final long serialVersionUID = 1L;
-	@Id
+
+        @Id
+    private String id;
     private String representant;
 
     public Fournisseur() {
         super();
     }
 
-    @OneToMany(mappedBy = "contrat")
+    @OneToMany(mappedBy = "fournisseur")
+    private List<Contrat> contrats;
 
+    public String getId() {
+        return id;
+    }
+        public void setId(String id) {
+            this.id = id;
+        }
     public String getRepresentant() {
         return representant;
     }
@@ -31,4 +37,11 @@ public class Fournisseur extends Personne implements Serializable {
         this.representant = representant;
     }
 
+    public List<Contrat> getContrats() {
+        return contrats;
+    }
+
+    public void setContrats(List<Contrat> contrats) {
+        this.contrats = contrats;
+    }
 }

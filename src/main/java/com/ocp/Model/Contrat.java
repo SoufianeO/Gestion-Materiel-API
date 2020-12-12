@@ -2,9 +2,8 @@ package com.ocp.Model;
 import javax.persistence.*;
 import java.io.Serializable;
 
-@Entity
-public class Contrat implements Serializable {
-
+    @Entity
+    public class Contrat implements Serializable {
     /**
      *
      */
@@ -17,14 +16,14 @@ public class Contrat implements Serializable {
     private String finGarantie;
 
     @ManyToOne
-    @JoinColumn(name = "idFourniseur")
-    private Fournisseur fourniseur;
+    @JoinColumn(name = "idFournisseur")
+    private Fournisseur fournisseur;
     @OneToOne
     @JoinColumn(name = "idMateriel")
     private Materiel materiel;
-
-    public Contrat(Fournisseur fourniseur, Materiel materiel){
-        this.fourniseur = fourniseur;
+    public Contrat(){}
+    public Contrat(Fournisseur fournisseur, Materiel materiel){
+        this.fournisseur = fournisseur;
         this.materiel = materiel;
     }
 
