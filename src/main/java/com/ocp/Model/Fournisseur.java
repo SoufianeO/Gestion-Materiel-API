@@ -12,8 +12,8 @@ import java.util.List;
 	 */
 	private static final long serialVersionUID = 1L;
 
-        @Id
-    private String id;
+	@Id
+    private String idFournisseur;
     private String representant;
 
     public Fournisseur() {
@@ -23,11 +23,11 @@ import java.util.List;
     @OneToMany(mappedBy = "fournisseur")
     private List<Contrat> contrats;
 
-    public String getId() {
-        return id;
+    public String getIdFournisseur() {
+        return idFournisseur;
     }
-        public void setId(String id) {
-            this.id = id;
+        public void setIdFournisseur(String idFournisseur) {
+            this.idFournisseur = idFournisseur;
         }
     public String getRepresentant() {
         return representant;

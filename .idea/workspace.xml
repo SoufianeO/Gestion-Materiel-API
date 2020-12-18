@@ -23,53 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87661c6e-8bdc-4acc-a3b6-7ae1d10b84f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Controller/UtilisateurController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Dao/UtilisateurDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Utilisateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ocpBACK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ocpBACK.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Model/AbstractUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Model/AbstractUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Contrat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Contrat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Controller/PanneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Controller/PanneController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Fonctionnaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Fonctionnaire.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Fournisseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Fournisseur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Materiel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Materiel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Panne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Panne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Model/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Controller/ContratController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Controller/ContratController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Controller/FonctionnaireController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Controller/FonctionnaireController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Controller/FournisseurController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Controller/FournisseurController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Controller/MaterielController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Controller/MaterielController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Controller/PanneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Controller/PanneController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Dao/ContratDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Dao/ContratDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Dao/FontionnaireDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Dao/FontionnaireDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Dao/FournisseurDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Dao/FournisseurDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Dao/MaterielDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Dao/MaterielDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Dao/PanneDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Dao/PanneDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Model/AbstractUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Model/AbstractUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Model/Contrat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Model/Contrat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Model/Fonctionnaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Model/Fonctionnaire.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Model/Fournisseur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Model/Fournisseur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Model/Materiel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Model/Materiel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Model/Panne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Model/Panne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Model/Personne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Model/Personne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/OcpApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/OcpApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/corsFilter/SimpleCORSFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/corsFilter/SimpleCORSFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ocp/OcpApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ocp/OcpApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +66,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Users\dell\.m2\wrapper\dists\apache-maven-3.6.0-bin\2dakv70gp803gtm5ve1ufmvttn\apache-maven-3.6.0" />
+        <option name="mavenHome" value="C:\Users\XPI\.m2\wrapper\dists\apache-maven-3.6.0-bin\2dakv70gp803gtm5ve1ufmvttn\apache-maven-3.6.0" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -290,33 +251,39 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1607726501749">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="510" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1608314064932">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="510" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1608314064932" />
     <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607726501749" />
-    <state x="250" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607813994577">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="222" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608314982039">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="222" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1608314982039" />
     <state x="250" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1607813994577" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607814265165">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1607814265165" />
-    <state width="1493" height="455" key="GridCell.Tab.0.bottom" timestamp="1607814723515">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="623" height="331" key="GridCell.Tab.0.bottom" timestamp="1608308267709">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="623" height="331" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608308267709" />
     <state width="1493" height="455" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607814723515" />
-    <state width="1493" height="455" key="GridCell.Tab.0.center" timestamp="1607814723515">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="623" height="331" key="GridCell.Tab.0.center" timestamp="1608308267709">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="623" height="331" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608308267709" />
     <state width="1493" height="455" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607814723515" />
-    <state width="1493" height="455" key="GridCell.Tab.0.left" timestamp="1607814723514">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="623" height="331" key="GridCell.Tab.0.left" timestamp="1608308267709">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="623" height="331" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608308267709" />
     <state width="1493" height="455" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607814723514" />
-    <state width="1493" height="455" key="GridCell.Tab.0.right" timestamp="1607814723515">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="623" height="331" key="GridCell.Tab.0.right" timestamp="1608308267709">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="623" height="331" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608308267709" />
     <state width="1493" height="455" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607814723515" />
     <state x="270" y="0" width="1063" height="811" key="dock-window-1" timestamp="1607812668310">
       <screen x="0" y="0" width="1536" height="824" />

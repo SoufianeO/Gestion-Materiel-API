@@ -44,7 +44,7 @@ public class PanneController {
 
         Panne panne = panneDao.getOne(id);
         panne.setDateDeclaration(panne1.getDateDeclaration());
-        panne.setDateResolution(panne1.getDateResolution());
+        panne.setDelaiResolution(panne1.getDelaiResolution());
         panne.setDescription(panne1.getDescription());
         panne.setEtat(panne1.getEtat());
         panneDao.save(panne);

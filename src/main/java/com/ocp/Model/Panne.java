@@ -1,13 +1,9 @@
 package com.ocp.Model;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import java.io.Serializable;
 
     @Entity
     public class Panne implements Serializable {
-
     /**
      *
      */
@@ -15,7 +11,8 @@ import java.io.Serializable;
     @Id
     private String numeroDemande;
     private String dateDeclaration;
-    private String dateResolution;
+    private String delaiReponse;
+    private String delaiResolution;
     private String description;
     private String etat;
 
@@ -44,12 +41,20 @@ import java.io.Serializable;
         this.dateDeclaration = dateDeclaration;
     }
 
-    public String getDateResolution() {
-        return dateResolution;
+    public String getDelaiReponse() {
+            return delaiReponse;
+        }
+
+        public void setDelaiReponse(String delaiReponse) {
+            this.delaiReponse = delaiReponse;
+        }
+
+    public String getDelaiResolution() {
+        return delaiResolution;
     }
 
-    public void setDateResolution(String dateResolution) {
-        this.dateResolution = dateResolution;
+    public void setDelaiResolution(String delaiResolution) {
+        this.delaiResolution = delaiResolution;
     }
 
     public String getDescription() {

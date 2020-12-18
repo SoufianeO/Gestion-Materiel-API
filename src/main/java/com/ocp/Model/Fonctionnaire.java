@@ -12,7 +12,7 @@ import java.util.List;
      */
     private static final long serialVersionUID = 1L;
     @Id
-    private String id;
+    private String idFonctionnaire;
     @NotBlank(message = "Login")
     private String login;
     @NotBlank(message = "Mot de passe")
@@ -26,12 +26,12 @@ import java.util.List;
         super();
     }
 
-    public String getId() {
-        return id;
+    public String getIdFonctionnaire() {
+        return idFonctionnaire;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setIdFonctionnaire(String idFonctionnaire) {
+        this.idFonctionnaire = idFonctionnaire;
     }
 
     public String getLogin() {
