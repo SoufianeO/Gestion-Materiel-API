@@ -9,7 +9,7 @@ import java.io.Serializable;
      */
     private static final long serialVersionUID = 1L;
     @Id
-    private String id;
+    private String idContrat;
     private String dateAcquisition;
     private String delaiReponse;
     private String delaiResolution;
@@ -27,12 +27,12 @@ import java.io.Serializable;
         this.materiel = materiel;
     }
 
-    public String getId() {
-        return id;
+    public String getIdContrat() {
+        return idContrat;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setIdContrat(String idContrat) {
+        this.idContrat = idContrat;
     }
 
     public String getDateAcquisition() {

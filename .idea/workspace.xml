@@ -22,16 +22,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
+    <list default="true" id="87661c6e-8bdc-4acc-a3b6-7ae1d10b84f1" name="Default Changelist" comment="" />
+=======
     <list default="true" id="87661c6e-8bdc-4acc-a3b6-7ae1d10b84f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Controller/PanneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Controller/PanneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Controller/ContratController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Controller/ContratController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Controller/UtilisateurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Controller/UtilisateurController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Dao/ContratDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Dao/ContratDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Contrat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Contrat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Fonctionnaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Fonctionnaire.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Fournisseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Fournisseur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Panne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Panne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocp/Model/Utilisateur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocp/Controller/FonctionnaireController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocp/Controller/FonctionnaireController.class" afterDir="false" />
     </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -238,6 +244,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -256,15 +272,28 @@
     </state>
     <state x="510" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1608314064932" />
     <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607726501749" />
+<<<<<<< Updated upstream
     <state x="222" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608314982039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="222" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1608314982039" />
+=======
+    <state x="407" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608415572926">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1608415572926" />
+    <state x="250" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608415446858">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="250" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1608415446858" />
+    <state x="2233" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608335275352" />
+>>>>>>> Stashed changes
     <state x="250" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1607813994577" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607814265165">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1607814265165" />
+<<<<<<< Updated upstream
     <state width="623" height="331" key="GridCell.Tab.0.bottom" timestamp="1608308267709">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -285,6 +314,28 @@
     </state>
     <state width="623" height="331" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608308267709" />
     <state width="1493" height="455" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607814723515" />
+=======
+    <state width="1493" height="457" key="GridCell.Tab.0.bottom" timestamp="1608415706598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="457" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1608415706598" />
+    <state width="1493" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607819257796" />
+    <state width="1493" height="457" key="GridCell.Tab.0.center" timestamp="1608415706598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="457" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1608415706598" />
+    <state width="1493" height="347" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607819257796" />
+    <state width="1493" height="457" key="GridCell.Tab.0.left" timestamp="1608415706598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="457" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1608415706598" />
+    <state width="1493" height="347" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607819257796" />
+    <state width="1493" height="457" key="GridCell.Tab.0.right" timestamp="1608415706598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="457" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1608415706598" />
+    <state width="1493" height="347" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607819257796" />
+>>>>>>> Stashed changes
     <state x="270" y="0" width="1063" height="811" key="dock-window-1" timestamp="1607812668310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

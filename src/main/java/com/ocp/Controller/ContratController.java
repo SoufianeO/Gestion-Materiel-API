@@ -28,19 +28,19 @@ public class ContratController {
     }
 
     @GetMapping("/contrats/{id}")
-    public Optional<Contrat> getContrat(@PathVariable(value = "id") int matricule){
+    public Optional<Contrat> getContrat(@PathVariable(value = "id") String matricule){
         return contratDao.findById(matricule);
     }
 
     @DeleteMapping("/contrats/{id}")
-    public void deleteContrat(@PathVariable int matricule){
+    public void deleteContrat(@PathVariable String matricule){
         contratDao.deleteById(matricule);
     }
 
     @PutMapping(path = "/contrats/{id}",
             consumes={MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
             produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
-    public void updateContrat(@PathVariable(value = "id") int id, @Valid @RequestBody Contrat contrat1) {
+    public void updateContrat(@PathVariable(value = "id") String id, @Valid @RequestBody Contrat contrat1) {
 
         Contrat contrat = contratDao.getOne(id);
         contrat.setDateAcquisition(contrat1.getDateAcquisition());

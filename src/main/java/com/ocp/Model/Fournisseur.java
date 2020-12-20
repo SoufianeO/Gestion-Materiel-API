@@ -12,7 +12,11 @@ import java.util.List;
 	 */
 	private static final long serialVersionUID = 1L;
 
+<<<<<<< Updated upstream
 	@Id
+=======
+        @Id
+>>>>>>> Stashed changes
     private String idFournisseur;
     private String representant;
 
